@@ -14,7 +14,7 @@ Dicha carpeta permite con el siguiente código en la metadata de la celda:
     "show_code": false
   }
 }
- <code>
+</code>
 impedir que se imprima a Latex/PDF en el informe dicha celda (tanto Input como Output). El template fue realizado a partir del template de la libreria **_nbconvert_** llamado **_"latex"_** editando el bucle que recorre las celdas con un If que controla si se encuentra dicho código en la metadata de la celda del Jupyter Notebook.
 
 Las librerias utilizadas en el entorno virtual se encuentran en el archivo "requirements.txt" contenido en la branch main de este repositorio.
